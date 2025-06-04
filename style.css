@@ -1,0 +1,127 @@
+body {
+  background-color: #222;
+  font-family: sans-serif;
+  padding: 16px;
+}
+
+.next-btn {
+  font-size: 1.2rem;
+}
+
+/* Responsive font size for paragraphs */
+p {
+  font-size: 1.2rem;         /* Base size for most screens */
+  line-height: 1.6;          /* Good line spacing for readability */
+  color: #222;               /* Dark text for contrast on light backgrounds */
+  margin-bottom: 1em;        /* Space between paragraphs */
+}
+
+.sky-bg {
+  animation: scroll 50s linear infinite; /* Faster scroll */
+  background: url("assets/symmetric-sky.jpg"), #111111;
+}
+
+@keyframes scroll {
+  100% {
+    background-position: 0px -400%;
+  }
+}
+
+
+h1, h2 {
+  font-family: 'Pacifico', cursive;
+}
+
+/* Header polish */
+h1 {
+  padding: 8px;
+  border-radius: 4px;
+}
+
+/* Limit image dimensions so tiles don’t overflow the layout */
+img {
+  width: 250px;           /* Fixed width for all images */
+  height: 250px;          /* Fixed height for all images (square) */
+  object-fit: cover;      /* Image covers the box, keeps aspect ratio */
+  border-radius: 12px;    /* Optional: rounded corners */
+  /* max-width and max-height are not needed since we want fixed size */
+}
+
+/* Optional decorative border for each tile */
+.border-tile {
+  border: 20px solid;
+  border-image: url('assets/rainbow-bg.jpg');
+  border-image-slice: 20;         /* Slices the image to fit the border width */
+  border-image-repeat: stretch;   /* Stretches the image to fill the border */
+}
+
+/* Thin border for the first image */
+.border-tile-thin {
+  border-width: 3px !important;         /* Override to 3px */
+  border-image-slice: 3 !important;     /* Match the thin border */
+}
+
+/* Optional caption style if you add labels under your tiles */
+.tile-caption {
+  text-align: center;
+  margin-top: 8px;
+  font-size: 14px;
+  color: #444;
+}
+
+.dark-box {
+  background-color: #111;
+}
+
+.rainbow-box {
+  background-image:
+    linear-gradient(rgba(255,255,255,0.4), rgba(255,255,255,0.4)), /* White opacity filter */
+    url(assets/rainbow-bg.jpg); /* Background image */
+  background-repeat: no-repeat;
+  background-size: cover;    /* Make image cover the whole box */
+  background-position: center; /* Center the image */
+  border: 3px solid #111;
+}
+
+.parallax {
+  /* 📌 This makes the background stay fixed while content scrolls over it */
+  background-attachment: fixed;
+
+  /* 📌 This scales the background image to cover the entire section */
+  background-size: cover;
+
+  /* 📌 This centers the background image in the section */
+  background-position: center;
+  padding: 24px;
+}
+
+#s1-p1 {
+  background-image: linear-gradient(rgba(255,255,255,0.4), rgba(255,255,255,0.4)), url("assets/assets-s1/bar.jpg");
+}
+
+#s1-p2 {
+  background-image: linear-gradient(rgba(255,255,255,0.3), rgba(255,255,255,0.3)), url("assets/assets-s1/house-party.jpg");
+}
+
+#s1-p3 {
+  background-image: linear-gradient(rgba(255,255,255,0.3), rgba(255,255,255,0.3)), url("assets/assets-s1/bar-2.jpg");
+}
+
+#s1-p4 {
+  background-image: linear-gradient(rgba(255,255,255,0.3), rgba(255,255,255,0.3)), url("assets/assets-s1/neighborhood.jpg");
+}
+
+/* Fallback if the operatring system prefers reduced motion*/
+@media (prefers-reduced-motion) {
+  .wrapper {
+    animation: scroll 800s linear infinite;
+  }
+}
+
+.transparent-bg {
+  max-width: 600px;              /* Limit the width */
+  margin: 0;
+  background: rgba(255,255,255,0.8); /* White with transparency */
+  padding: 16px;                 /* Some inner spacing */
+  box-shadow: 0 2px 12px rgba(0,0,0,0.08); /* Optional: subtle shadow */
+}
