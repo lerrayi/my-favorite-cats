@@ -27,6 +27,14 @@ p {
   }
 }
 
+.cat-box {
+  transition: transform 0.3s ease-in-out;
+}
+
+.cat-box:hover, 
+.cat-box:focus-within {
+  transform: scale(1.05);
+}
 
 h1, h2 {
   font-family: 'Pacifico', cursive;
