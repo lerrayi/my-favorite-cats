@@ -119,6 +119,14 @@ img {
   background-image: linear-gradient(rgba(255,255,255,0.3), rgba(255,255,255,0.3)), url("assets/assets-s1/neighborhood.jpg");
 }
 
+#s2-p1 {
+  background-image: linear-gradient(rgba(255,255,255,0.3), rgba(255,255,255,0.3)), url("assets/assets-s2/family.jpg");
+}
+
+#s2-p2 {
+  background-image: linear-gradient(rgba(255,255,255,0.3), rgba(255,255,255,0.3)), url("assets/assets-s2/doctor-office.jpg");
+}
+
 /* Fallback if the operatring system prefers reduced motion*/
 @media (prefers-reduced-motion) {
   .wrapper {
