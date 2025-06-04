@@ -127,6 +127,26 @@ img {
   background-image: linear-gradient(rgba(255,255,255,0.3), rgba(255,255,255,0.3)), url("assets/assets-s2/doctor-office.jpg");
 }
 
+#s3-p1 {
+  background-image: linear-gradient(rgba(255,255,255,0.3), rgba(255,255,255,0.3)), url("assets/assets-s3/daisy.jpg");
+}
+
+#s4-p1 {
+  background-image: linear-gradient(rgba(255,255,255,0.3), rgba(255,255,255,0.3)), url("assets/assets-s4/metro.jpg");
+}
+
+#s5-p1 {
+  background-image: linear-gradient(rgba(255,255,255,0.3), rgba(255,255,255,0.3)), url("assets/assets-s5/mirror.jpg");
+}
+
+#s6-p1 {
+  background-image: linear-gradient(rgba(255,255,255,0.3), rgba(255,255,255,0.3)), url("assets/assets-s6/smile.jpg");
+}
+
+#s7-p1 {
+  background-image: linear-gradient(rgba(255,255,255,0.3), rgba(255,255,255,0.3)), url("assets/assets-s7/hawk.jpg");
+}
+
 /* Fallback if the operatring system prefers reduced motion*/
 @media (prefers-reduced-motion) {
   .wrapper {
