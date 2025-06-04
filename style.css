@@ -136,7 +136,7 @@ img {
 }
 
 #s5-p1 {
-  background-image: linear-gradient(rgba(255,255,255,0.3), rgba(255,255,255,0.3)), url("assets/assets-s5/mirror.jpg");
+  background-image: linear-gradient(rgba(255,255,255,0.3), rgba(255,255,255,0.3)), url("assets/assets-s5/foggy-mirror.jpg");
 }
 
 #s6-p1 {
@@ -145,6 +145,10 @@ img {
 
 #s7-p1 {
   background-image: linear-gradient(rgba(255,255,255,0.3), rgba(255,255,255,0.3)), url("assets/assets-s7/hawk.jpg");
+}
+
+#s8-p1 {
+  background-image: linear-gradient(rgba(255,255,255,0.3), rgba(255,255,255,0.3)), url("assets/assets-s8/river.jpg");
 }
 
 /* Fallback if the operatring system prefers reduced motion*/
