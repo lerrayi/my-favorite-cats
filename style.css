@@ -32,7 +32,7 @@ p {
 }
 
 .cat-box img:hover, 
-.cat-box img:focus-within {
+.cat-box:focus-within img {
   transform: scale(1.05);
 }
 
